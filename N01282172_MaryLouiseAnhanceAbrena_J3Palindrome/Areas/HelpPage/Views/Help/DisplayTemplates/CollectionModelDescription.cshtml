@@ -1,0 +1,6 @@
+@using N01282172_MaryLouiseAnhanceAbrena_J3Palindrome.Areas.HelpPage.ModelDescriptions
+@model CollectionModelDescription
+@if (Model.ElementDescription is ComplexTypeModelDescription)
+{
+    @Html.DisplayFor(m => m.ElementDescription)
+}
